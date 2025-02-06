@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# Создать виртуальное окружение
+VENV_PATH="/usr/share/your-app/venv"
+python3 -m venv "$VENV_PATH"
+
+# Установить зависимости ВНУТРИ виртуального окружения
+"$VENV_PATH/bin/pip" install pyside6 psutil requests

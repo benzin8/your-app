@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Your App
+Exec=your-app
+Icon=/usr/share/icons/your-app-icon.png
+Type=Application
+Categories=Utility;

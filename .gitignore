@@ -1,0 +1,80 @@
+# Игнорировать системные файлы macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Игнорировать папки
+**/.DS_Store
+**/.Trash
+**/.Spotlight-V100
+**/.TemporaryItems
+**/.fseventsd
+**/.VolumeIcon.icns
+**/.com.apple.timemachine.donotpresent
+
+# Игнорировать временные файлы
+*.swp
+*.swo
+*.swn
+*.swm
+*.swl
+*.un~
+*~
+
+# Игнорировать папки с зависимостями
+node_modules/
+vendor/
+venv/
+.env/
+dist/
+build/
+*.egg-info/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Игнорировать IDE/редакторы
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Игнорировать лог-файлы
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Игнорировать скомпилированные файлы
+*.class
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+*.app
+*.ipa
+*.apk
+*.deb
+
+# Игнорировать файлы конфигурации
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Игнорировать пользовательские настройки
+*.userprefs
+*.user
+*.sublime-workspace
+*.sublime-project
+
+# Игнорировать резервные копии
+*.bak
+*.backup
+*.old
